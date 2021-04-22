@@ -10,6 +10,7 @@
     "detection"
   ],
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {},
   "author": "Gert Hengeveld <ghengeveld@xebia.com>",
   "contributors": [
