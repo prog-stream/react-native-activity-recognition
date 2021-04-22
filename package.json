@@ -1,5 +1,5 @@
 {
-  "name": "react-native-activity-recognition",
+  "name": "@progstream/react-native-activity-recognition",
   "version": "3.2.1",
   "description": "React Native wrapper for the Activity Recognition API.",
   "keywords": [
@@ -13,23 +13,14 @@
   "scripts": {},
   "author": "Gert Hengeveld <ghengeveld@xebia.com>",
   "contributors": [
-    {
-      "name": "Gert Hengeveld",
-      "email": "ghengeveld@xebia.com"
-    },
-    {
-      "name": "Amit Kanwar",
-      "email": "kanwaramit92@gmail.com"
-    }
+    "Gert Hengeveld <ghengeveld@xebia.com>",
+    "Amit Kanwar <kanwaramit92@gmail.com>"
   ],
-  "license": "GPL",
-  "homepage": "https://github.com/XebiaStudio/react-native-activity-recognition#readme",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://github.com/prog-stream/react-native-activity-recognition#readme",
   "repository": {
-    "url": "git+https://github.com/XebiaStudio/react-native-activity-recognition.git",
+    "url": "git+https://github.com/prog-stream/react-native-activity-recognition.git",
     "type": "git"
-  },
-  "bugs": {
-    "url": "https://github.com/XebiaStudio/react-native-activity-recognition/issues"
   },
   "devDependencies": {
     "react": "^15.3.2",
