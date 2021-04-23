@@ -2,7 +2,8 @@
 
 ## Motivation
 
-This is a fork of [react-native-activity-recognition](https://github.com/Aminoid/react-native-activity-recognition) which is unmaintained now. We have updated it to support react-native@0.60+ and fixed some old dependencies.
+Originally forked from [react-native-activity-recognition](https://github.com/Aminoid/react-native-activity-recognition). 
+We have updated it to support react-native@0.60+ and fixed some old dependencies.
 
 [![npm version][npm shield]][npm url]
 
@@ -12,7 +13,6 @@ driving, walking, running and cycling. Possible detected activities for android 
 [1]: https://developers.google.com/android/reference/com/google/android/gms/location/ActivityRecognition
 [2]: https://developers.google.com/android/reference/com/google/android/gms/location/DetectedActivity
 [3]: https://developer.apple.com/reference/coremotion/cmmotionactivity
-[4]: https://facebook.github.io/react-native/docs/linking-libraries-ios.html#manual-linking
 [npm shield]: https://img.shields.io/npm/v/@progstream/react-native-activity-recognition
 [npm url]: https://www.npmjs.com/package/@progstream/react-native-activity-recognition
 
@@ -126,9 +126,9 @@ import ActivityRecognition from '@progstream/react-native-activity-recognition'
       const mostProbableActivity = detectedActivities.sorted[0];
       console.log(mostProbableActivity);
     });
-    const interval = 1000;
+    const detectionIntervalMillis = 1000;
     // Start activity detection
-    ActivityRecognition.start(interval);
+    ActivityRecognition.start(detectionIntervalMillis);
     return () => {
       // Stop activity detection and remove the listener on unmount
       ActivityRecognition.stop();
