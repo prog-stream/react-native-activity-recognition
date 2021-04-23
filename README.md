@@ -3,7 +3,9 @@
 ## Motivation
 
 Originally forked from [react-native-activity-recognition](https://github.com/Aminoid/react-native-activity-recognition). 
-We have updated it to support react-native@0.60+ and fixed some old dependencies.
+
+- Supports React Native 0.60+ :rocket:
+- Typescript support :sparkles:
 
 [![npm version][npm shield]][npm url]
 
